@@ -58,6 +58,10 @@ defmodule SocialCuckoo.Formatters.Twitter do
   @doc """
   Actually publishes the input to twitter, returns `{:ok, result}` or
   `{:error, message}` tuple.
+
+  ## Examples
+
+
   """
   def publish(data, opts \\ []) do
     try do
